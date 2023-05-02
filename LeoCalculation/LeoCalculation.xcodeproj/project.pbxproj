@@ -11,6 +11,7 @@
 		2517A7142A01A67E00475CBD /* LeoCalculation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2517A7092A01A67E00475CBD /* LeoCalculation.framework */; };
 		2517A7192A01A67E00475CBD /* LeoCalculationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2517A7182A01A67E00475CBD /* LeoCalculationTests.swift */; };
 		2517A71A2A01A67E00475CBD /* LeoCalculation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2517A70C2A01A67E00475CBD /* LeoCalculation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2517A7242A01A73400475CBD /* CalculationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2517A7232A01A73400475CBD /* CalculationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		2517A70D2A01A67E00475CBD /* LeoCalculation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LeoCalculation.docc; sourceTree = "<group>"; };
 		2517A7132A01A67E00475CBD /* LeoCalculationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeoCalculationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2517A7182A01A67E00475CBD /* LeoCalculationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeoCalculationTests.swift; sourceTree = "<group>"; };
+		2517A7232A01A73400475CBD /* CalculationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				2517A70C2A01A67E00475CBD /* LeoCalculation.h */,
 				2517A70D2A01A67E00475CBD /* LeoCalculation.docc */,
+				2517A7232A01A73400475CBD /* CalculationManager.swift */,
 			);
 			path = LeoCalculation;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2517A70E2A01A67E00475CBD /* LeoCalculation.docc in Sources */,
+				2517A7242A01A73400475CBD /* CalculationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +406,7 @@
 		2517A7212A01A67E00475CBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -417,6 +422,7 @@
 		2517A7222A01A67E00475CBD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
