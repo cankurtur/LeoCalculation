@@ -1,0 +1,11 @@
+framework module LeoCalculation {
+  umbrella header "LeoCalculation.h"
+
+  export *
+  module * { export * }
+}
+
+module LeoCalculation.Swift {
+  header "LeoCalculation-Swift.h"
+  requires objc
+}
