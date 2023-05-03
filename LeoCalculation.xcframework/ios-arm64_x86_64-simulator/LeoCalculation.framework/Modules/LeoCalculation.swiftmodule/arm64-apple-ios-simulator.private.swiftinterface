@@ -7,6 +7,37 @@ import Foundation
 import Swift
 import _Concurrency
 import _StringProcessing
+public enum ExtraOperations : Swift.String, Swift.CaseIterable, Swift.Equatable {
+  case sin
+  case cos
+  public func getValue(_ num: Swift.Double) -> Swift.Double
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [LeoCalculation.ExtraOperations]
+  public typealias RawValue = Swift.String
+  public static var allCases: [LeoCalculation.ExtraOperations] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum BasicOperations : Swift.String, Swift.CaseIterable, Swift.Equatable {
+  case add
+  case subtract
+  case multiply
+  case divide
+  public static func currentOperation(_ operation: Swift.String) -> LeoCalculation.BasicOperations?
+  public func makeOperation(_ num1: Swift.Double, _ num2: Swift.Double) -> Swift.Double?
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [LeoCalculation.BasicOperations]
+  public typealias RawValue = Swift.String
+  public static var allCases: [LeoCalculation.BasicOperations] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public class CalculationManager {
   public init()
   public func add(_ num1: Swift.Double, _ num2: Swift.Double) -> Swift.Double
@@ -17,3 +48,7 @@ public class CalculationManager {
   public func cosine(_ value: Swift.Double) -> Swift.Double
   @objc deinit
 }
+extension LeoCalculation.ExtraOperations : Swift.Hashable {}
+extension LeoCalculation.ExtraOperations : Swift.RawRepresentable {}
+extension LeoCalculation.BasicOperations : Swift.Hashable {}
+extension LeoCalculation.BasicOperations : Swift.RawRepresentable {}
