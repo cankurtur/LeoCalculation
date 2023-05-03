@@ -10,6 +10,7 @@ import _StringProcessing
 public enum ExtraOperations : Swift.String, Swift.CaseIterable, Swift.Equatable {
   case sin
   case cos
+  public static func currentOperation(_ operation: Swift.String) -> LeoCalculation.ExtraOperations?
   public func getValue(_ num: Swift.Double) -> Swift.Double
   public init?(rawValue: Swift.String)
   public typealias AllCases = [LeoCalculation.ExtraOperations]
