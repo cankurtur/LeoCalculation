@@ -95,6 +95,43 @@
           },
           {
             "kind": "Function",
+            "name": "currentOperation",
+            "printedName": "currentOperation(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LeoCalculation.ExtraOperations?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExtraOperations",
+                    "printedName": "LeoCalculation.ExtraOperations",
+                    "usr": "s:14LeoCalculation15ExtraOperationsO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LeoCalculation15ExtraOperationsO16currentOperationyACSgSSFZ",
+            "mangledName": "$s14LeoCalculation15ExtraOperationsO16currentOperationyACSgSSFZ",
+            "moduleName": "LeoCalculation",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getValue",
             "printedName": "getValue(_:)",
             "children": [
@@ -1041,6 +1078,20 @@
       "offset": 475,
       "length": 5,
       "value": "\"cos\""
+    },
+    {
+      "filePath": "\/Users\/cankurtur\/LEO\/LeoCalculation\/LeoCalculation\/ExtraOperations.swift",
+      "kind": "StringLiteral",
+      "offset": 743,
+      "length": 16,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cankurtur\/LEO\/LeoCalculation\/LeoCalculation\/ExtraOperations.swift",
+      "kind": "StringLiteral",
+      "offset": 758,
+      "length": 15,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/cankurtur\/LEO\/LeoCalculation\/LeoCalculation\/ExtraOperations.swift",
