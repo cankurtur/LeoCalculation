@@ -17,6 +17,14 @@ public enum ExtraOperations: String, CaseIterable, Equatable {
     case sin = "sin"
     case cos = "cos"
     
+    /// Get the current operation with given string paremeter.
+    ///
+    /// - Parameters:
+    ///   - operation: The operation symbol.
+    public static func currentOperation(_ operation: String) -> ExtraOperations? {
+        return self.allCases.first{ "\($0.rawValue)" == operation}
+    }
+    
     /// Get the value of the given number.
     ///
     /// - Parameters:
