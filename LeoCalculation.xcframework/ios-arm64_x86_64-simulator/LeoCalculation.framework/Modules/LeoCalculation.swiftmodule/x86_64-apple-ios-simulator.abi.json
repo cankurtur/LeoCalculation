@@ -1,0 +1,1137 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LeoCalculation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ExtraOperations",
+        "printedName": "ExtraOperations",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sin",
+            "printedName": "sin",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LeoCalculation.ExtraOperations.Type) -> LeoCalculation.ExtraOperations",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExtraOperations",
+                    "printedName": "LeoCalculation.ExtraOperations",
+                    "usr": "s:14LeoCalculation15ExtraOperationsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LeoCalculation.ExtraOperations.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExtraOperations",
+                        "printedName": "LeoCalculation.ExtraOperations",
+                        "usr": "s:14LeoCalculation15ExtraOperationsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14LeoCalculation15ExtraOperationsO3sinyA2CmF",
+            "mangledName": "$s14LeoCalculation15ExtraOperationsO3sinyA2CmF",
+            "moduleName": "LeoCalculation"
+          },
+          {
+            "kind": "Var",
+            "name": "cos",
+            "printedName": "cos",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LeoCalculation.ExtraOperations.Type) -> LeoCalculation.ExtraOperations",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExtraOperations",
+                    "printedName": "LeoCalculation.ExtraOperations",
+                    "usr": "s:14LeoCalculation15ExtraOperationsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LeoCalculation.ExtraOperations.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExtraOperations",
+                        "printedName": "LeoCalculation.ExtraOperations",
+                        "usr": "s:14LeoCalculation15ExtraOperationsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14LeoCalculation15ExtraOperationsO3cosyA2CmF",
+            "mangledName": "$s14LeoCalculation15ExtraOperationsO3cosyA2CmF",
+            "moduleName": "LeoCalculation"
+          },
+          {
+            "kind": "Function",
+            "name": "getValue",
+            "printedName": "getValue(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LeoCalculation15ExtraOperationsO8getValueyS2dF",
+            "mangledName": "$s14LeoCalculation15ExtraOperationsO8getValueyS2dF",
+            "moduleName": "LeoCalculation",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LeoCalculation.ExtraOperations?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExtraOperations",
+                    "printedName": "LeoCalculation.ExtraOperations",
+                    "usr": "s:14LeoCalculation15ExtraOperationsO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14LeoCalculation15ExtraOperationsO8rawValueACSgSS_tcfc",
+            "mangledName": "$s14LeoCalculation15ExtraOperationsO8rawValueACSgSS_tcfc",
+            "moduleName": "LeoCalculation",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LeoCalculation15ExtraOperationsO8rawValueSSvp",
+            "mangledName": "$s14LeoCalculation15ExtraOperationsO8rawValueSSvp",
+            "moduleName": "LeoCalculation",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LeoCalculation15ExtraOperationsO8rawValueSSvg",
+                "mangledName": "$s14LeoCalculation15ExtraOperationsO8rawValueSSvg",
+                "moduleName": "LeoCalculation",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[LeoCalculation.ExtraOperations]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExtraOperations",
+                    "printedName": "LeoCalculation.ExtraOperations",
+                    "usr": "s:14LeoCalculation15ExtraOperationsO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LeoCalculation15ExtraOperationsO8allCasesSayACGvpZ",
+            "mangledName": "$s14LeoCalculation15ExtraOperationsO8allCasesSayACGvpZ",
+            "moduleName": "LeoCalculation",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[LeoCalculation.ExtraOperations]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExtraOperations",
+                        "printedName": "LeoCalculation.ExtraOperations",
+                        "usr": "s:14LeoCalculation15ExtraOperationsO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LeoCalculation15ExtraOperationsO8allCasesSayACGvgZ",
+                "mangledName": "$s14LeoCalculation15ExtraOperationsO8allCasesSayACGvgZ",
+                "moduleName": "LeoCalculation",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14LeoCalculation15ExtraOperationsO",
+        "mangledName": "$s14LeoCalculation15ExtraOperationsO",
+        "moduleName": "LeoCalculation",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[LeoCalculation.ExtraOperations]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExtraOperations",
+                        "printedName": "LeoCalculation.ExtraOperations",
+                        "usr": "s:14LeoCalculation15ExtraOperationsO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LeoCalculation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BasicOperations",
+        "printedName": "BasicOperations",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "add",
+            "printedName": "add",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LeoCalculation.BasicOperations.Type) -> LeoCalculation.BasicOperations",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BasicOperations",
+                    "printedName": "LeoCalculation.BasicOperations",
+                    "usr": "s:14LeoCalculation15BasicOperationsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LeoCalculation.BasicOperations.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BasicOperations",
+                        "printedName": "LeoCalculation.BasicOperations",
+                        "usr": "s:14LeoCalculation15BasicOperationsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14LeoCalculation15BasicOperationsO3addyA2CmF",
+            "mangledName": "$s14LeoCalculation15BasicOperationsO3addyA2CmF",
+            "moduleName": "LeoCalculation"
+          },
+          {
+            "kind": "Var",
+            "name": "subtract",
+            "printedName": "subtract",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LeoCalculation.BasicOperations.Type) -> LeoCalculation.BasicOperations",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BasicOperations",
+                    "printedName": "LeoCalculation.BasicOperations",
+                    "usr": "s:14LeoCalculation15BasicOperationsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LeoCalculation.BasicOperations.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BasicOperations",
+                        "printedName": "LeoCalculation.BasicOperations",
+                        "usr": "s:14LeoCalculation15BasicOperationsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14LeoCalculation15BasicOperationsO8subtractyA2CmF",
+            "mangledName": "$s14LeoCalculation15BasicOperationsO8subtractyA2CmF",
+            "moduleName": "LeoCalculation"
+          },
+          {
+            "kind": "Var",
+            "name": "multiply",
+            "printedName": "multiply",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LeoCalculation.BasicOperations.Type) -> LeoCalculation.BasicOperations",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BasicOperations",
+                    "printedName": "LeoCalculation.BasicOperations",
+                    "usr": "s:14LeoCalculation15BasicOperationsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LeoCalculation.BasicOperations.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BasicOperations",
+                        "printedName": "LeoCalculation.BasicOperations",
+                        "usr": "s:14LeoCalculation15BasicOperationsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14LeoCalculation15BasicOperationsO8multiplyyA2CmF",
+            "mangledName": "$s14LeoCalculation15BasicOperationsO8multiplyyA2CmF",
+            "moduleName": "LeoCalculation"
+          },
+          {
+            "kind": "Var",
+            "name": "divide",
+            "printedName": "divide",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LeoCalculation.BasicOperations.Type) -> LeoCalculation.BasicOperations",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BasicOperations",
+                    "printedName": "LeoCalculation.BasicOperations",
+                    "usr": "s:14LeoCalculation15BasicOperationsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LeoCalculation.BasicOperations.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BasicOperations",
+                        "printedName": "LeoCalculation.BasicOperations",
+                        "usr": "s:14LeoCalculation15BasicOperationsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14LeoCalculation15BasicOperationsO6divideyA2CmF",
+            "mangledName": "$s14LeoCalculation15BasicOperationsO6divideyA2CmF",
+            "moduleName": "LeoCalculation"
+          },
+          {
+            "kind": "Function",
+            "name": "currentOperation",
+            "printedName": "currentOperation(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LeoCalculation.BasicOperations?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BasicOperations",
+                    "printedName": "LeoCalculation.BasicOperations",
+                    "usr": "s:14LeoCalculation15BasicOperationsO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LeoCalculation15BasicOperationsO16currentOperationyACSgSSFZ",
+            "mangledName": "$s14LeoCalculation15BasicOperationsO16currentOperationyACSgSSFZ",
+            "moduleName": "LeoCalculation",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeOperation",
+            "printedName": "makeOperation(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LeoCalculation15BasicOperationsO13makeOperationySdSgSd_SdtF",
+            "mangledName": "$s14LeoCalculation15BasicOperationsO13makeOperationySdSgSd_SdtF",
+            "moduleName": "LeoCalculation",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LeoCalculation.BasicOperations?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BasicOperations",
+                    "printedName": "LeoCalculation.BasicOperations",
+                    "usr": "s:14LeoCalculation15BasicOperationsO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14LeoCalculation15BasicOperationsO8rawValueACSgSS_tcfc",
+            "mangledName": "$s14LeoCalculation15BasicOperationsO8rawValueACSgSS_tcfc",
+            "moduleName": "LeoCalculation",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LeoCalculation15BasicOperationsO8rawValueSSvp",
+            "mangledName": "$s14LeoCalculation15BasicOperationsO8rawValueSSvp",
+            "moduleName": "LeoCalculation",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LeoCalculation15BasicOperationsO8rawValueSSvg",
+                "mangledName": "$s14LeoCalculation15BasicOperationsO8rawValueSSvg",
+                "moduleName": "LeoCalculation",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[LeoCalculation.BasicOperations]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BasicOperations",
+                    "printedName": "LeoCalculation.BasicOperations",
+                    "usr": "s:14LeoCalculation15BasicOperationsO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14LeoCalculation15BasicOperationsO8allCasesSayACGvpZ",
+            "mangledName": "$s14LeoCalculation15BasicOperationsO8allCasesSayACGvpZ",
+            "moduleName": "LeoCalculation",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[LeoCalculation.BasicOperations]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BasicOperations",
+                        "printedName": "LeoCalculation.BasicOperations",
+                        "usr": "s:14LeoCalculation15BasicOperationsO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14LeoCalculation15BasicOperationsO8allCasesSayACGvgZ",
+                "mangledName": "$s14LeoCalculation15BasicOperationsO8allCasesSayACGvgZ",
+                "moduleName": "LeoCalculation",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14LeoCalculation15BasicOperationsO",
+        "mangledName": "$s14LeoCalculation15BasicOperationsO",
+        "moduleName": "LeoCalculation",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[LeoCalculation.BasicOperations]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BasicOperations",
+                        "printedName": "LeoCalculation.BasicOperations",
+                        "usr": "s:14LeoCalculation15BasicOperationsO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LeoCalculation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CalculationManager",
+        "printedName": "CalculationManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CalculationManager",
+                "printedName": "LeoCalculation.CalculationManager",
+                "usr": "s:14LeoCalculation0B7ManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14LeoCalculation0B7ManagerCACycfc",
+            "mangledName": "$s14LeoCalculation0B7ManagerCACycfc",
+            "moduleName": "LeoCalculation",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LeoCalculation0B7ManagerC3addyS2d_SdtF",
+            "mangledName": "$s14LeoCalculation0B7ManagerC3addyS2d_SdtF",
+            "moduleName": "LeoCalculation",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subtract",
+            "printedName": "subtract(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LeoCalculation0B7ManagerC8subtractyS2d_SdtF",
+            "mangledName": "$s14LeoCalculation0B7ManagerC8subtractyS2d_SdtF",
+            "moduleName": "LeoCalculation",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "multiply",
+            "printedName": "multiply(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LeoCalculation0B7ManagerC8multiplyyS2d_SdtF",
+            "mangledName": "$s14LeoCalculation0B7ManagerC8multiplyyS2d_SdtF",
+            "moduleName": "LeoCalculation",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "divide",
+            "printedName": "divide(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LeoCalculation0B7ManagerC6divideySdSgSd_SdtF",
+            "mangledName": "$s14LeoCalculation0B7ManagerC6divideySdSgSd_SdtF",
+            "moduleName": "LeoCalculation",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sine",
+            "printedName": "sine(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LeoCalculation0B7ManagerC4sineyS2dF",
+            "mangledName": "$s14LeoCalculation0B7ManagerC4sineyS2dF",
+            "moduleName": "LeoCalculation",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cosine",
+            "printedName": "cosine(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14LeoCalculation0B7ManagerC6cosineyS2dF",
+            "mangledName": "$s14LeoCalculation0B7ManagerC6cosineyS2dF",
+            "moduleName": "LeoCalculation",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14LeoCalculation0B7ManagerC",
+        "mangledName": "$s14LeoCalculation0B7ManagerC",
+        "moduleName": "LeoCalculation",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/cankurtur\/LEO\/LeoCalculation\/LeoCalculation\/ExtraOperations.swift",
+      "kind": "StringLiteral",
+      "offset": 454,
+      "length": 5,
+      "value": "\"sin\""
+    },
+    {
+      "filePath": "\/Users\/cankurtur\/LEO\/LeoCalculation\/LeoCalculation\/ExtraOperations.swift",
+      "kind": "StringLiteral",
+      "offset": 475,
+      "length": 5,
+      "value": "\"cos\""
+    },
+    {
+      "filePath": "\/Users\/cankurtur\/LEO\/LeoCalculation\/LeoCalculation\/ExtraOperations.swift",
+      "kind": "StringLiteral",
+      "offset": 454,
+      "length": 5,
+      "value": "\"sin\""
+    },
+    {
+      "filePath": "\/Users\/cankurtur\/LEO\/LeoCalculation\/LeoCalculation\/ExtraOperations.swift",
+      "kind": "StringLiteral",
+      "offset": 475,
+      "length": 5,
+      "value": "\"cos\""
+    },
+    {
+      "filePath": "\/Users\/cankurtur\/LEO\/LeoCalculation\/LeoCalculation\/BasicOperations.swift",
+      "kind": "StringLiteral",
+      "offset": 573,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/cankurtur\/LEO\/LeoCalculation\/LeoCalculation\/BasicOperations.swift",
+      "kind": "StringLiteral",
+      "offset": 597,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/cankurtur\/LEO\/LeoCalculation\/LeoCalculation\/BasicOperations.swift",
+      "kind": "StringLiteral",
+      "offset": 621,
+      "length": 3,
+      "value": "\"x\""
+    },
+    {
+      "filePath": "\/Users\/cankurtur\/LEO\/LeoCalculation\/LeoCalculation\/BasicOperations.swift",
+      "kind": "StringLiteral",
+      "offset": 643,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/cankurtur\/LEO\/LeoCalculation\/LeoCalculation\/BasicOperations.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 16,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cankurtur\/LEO\/LeoCalculation\/LeoCalculation\/BasicOperations.swift",
+      "kind": "StringLiteral",
+      "offset": 924,
+      "length": 15,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/cankurtur\/LEO\/LeoCalculation\/LeoCalculation\/BasicOperations.swift",
+      "kind": "StringLiteral",
+      "offset": 573,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/cankurtur\/LEO\/LeoCalculation\/LeoCalculation\/BasicOperations.swift",
+      "kind": "StringLiteral",
+      "offset": 597,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/cankurtur\/LEO\/LeoCalculation\/LeoCalculation\/BasicOperations.swift",
+      "kind": "StringLiteral",
+      "offset": 621,
+      "length": 3,
+      "value": "\"x\""
+    },
+    {
+      "filePath": "\/Users\/cankurtur\/LEO\/LeoCalculation\/LeoCalculation\/BasicOperations.swift",
+      "kind": "StringLiteral",
+      "offset": 643,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/cankurtur\/LEO\/LeoCalculation\/LeoCalculation\/CalculationManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1499,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}
