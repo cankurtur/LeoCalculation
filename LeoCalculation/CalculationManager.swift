@@ -21,7 +21,7 @@ public class CalculationManager {
         return num1 + num2
     }
 
-    /// Subtracts the second number from the first number and returns the result.
+    /// Subtracts the first number from the second number and returns the result.
     ///
     /// - Parameters:
     ///   - num1: The first number.
