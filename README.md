@@ -51,40 +51,19 @@ Divides the first number by the second number and returns the result. The result
 public func divide(_ num1: Double, _ num2: Double) -> Double?
 ```
 
-#### BasicOperations enum
+#### BasicOperations Enum
 You can find the current operation type with the `BasicOperations` enum. If your type matches the enum type, then you can perform operations as desired.
-```swift
-public enum BasicOperations: String, CaseIterable, Equatable {
-    case add = "+"
-    case subtract = "-"
-    case multiply = "x"
-    case divide = "/"
-}
-```
 
 This `currentOperation` method will help you determine your current operation type. It takes a string parameter and returns a matched operation case.
 
 ```swift
-    public static func currentOperation(_ operation: String) -> BasicOperations? {
-        return self.allCases.first{ "\($0.rawValue)" == operation}
-    }
+    public static func currentOperation(_ operation: String) -> BasicOperations?
 ```
 
 The `makeOperation` method will help you perform an operation with the given numbers. It takes two Double parameters and returns the result of the calculation as a `Double?`.
 
 ```swift
-    public func makeOperation(_ num1: Double, _ num2: Double) -> Double? {
-        switch self {
-        case .add:
-            return CalculationManager().add(num1, num2)
-        case .subtract:
-            return CalculationManager().subtract(num1, num2)
-        case .multiply:
-            return CalculationManager().multiply(num1, num2)
-        case .divide:
-            return CalculationManager().divide(num1, num2)
-        }
-    }
+    public func makeOperation(_ num1: Double, _ num2: Double) -> Double? 
 ```
 
 ### Extra Operations
@@ -106,34 +85,19 @@ Returns the cos value of the given number.
 public func cosine(_ value: Double) -> Double 
 ```
 
-#### ExtraOperations enum
+#### ExtraOperations Enum
 You can find the current operation type with the `ExtraOperations` enum. If your type matches the enum type, then you can perform operations as desired.
-```swift
-public enum ExtraOperations: String, CaseIterable, Equatable {
-    case sin = "sin"
-    case cos = "cos"
-}
-```
 
 This `currentOperation` method will help you determine your current operation type. It takes a string parameter and returns a matched operation case.
 
 ```swift
-public static func currentOperation(_ operation: String) -> ExtraOperations? {
-        return self.allCases.first{ "\($0.rawValue)" == operation}
-}
+public static func currentOperation(_ operation: String) -> ExtraOperations?
 ```
 
 This `getValue` method will help you to Get the value of the given number. It takes a Double parameter and returns the result of the calculation as a `Double?`.
 
 ```swift
-public func getValue(_ num: Double) -> Double {
-    switch self {
-    case .sin:
-        return CalculationManager().sine(num)
-    case .cos:
-        return CalculationManager().cosine(num)
-    }
-}
+public func getValue(_ num: Double) -> Double 
 ```
 
 ## Licence
