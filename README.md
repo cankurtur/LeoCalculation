@@ -25,26 +25,26 @@ LeoCalculation is written in Swift 5.0+ and compatible with iOS 15.0+.
 ## Usage
 ### Basic Operations
 All of the methods take a `Double` as a parameter and return a `Double` value
-##### Add
+#### Add
 
 Adds two numbers and returns the result.
 ```swift
 public func add(_ num1: Double, _ num2: Double) -> Double
 ```
 
-##### Subtract
+#### Subtract
 
 Subtracts the first number from the second number and returns the result.
 ```swift
 public func subtract(_ num1: Double, _ num2: Double) -> Double
 ```
-##### Multiply
+#### Multiply
 
 Multiplies two numbers and returns the result.
 ```swift
 public func multiply(_ num1: Double, _ num2: Double) -> Double
 ```
-##### Divide
+#### Divide
 
 Divides the first number by the second number and returns the result. The result value is optional. If `num2` is zero, the function returns a nil value to avoid a divide by zero error. 
 ```swift
@@ -90,7 +90,7 @@ The `makeOperation` method will help you perform an operation with the given num
 ### Extra Operations
 All of the methods take a `Double` as a parameter and return a `Double` value.
 
-##### Sin
+#### Sin
 
 Returns the sin value of the given number.
 
@@ -98,7 +98,7 @@ Returns the sin value of the given number.
 public func sine(_ value: Double) -> Double 
 ```
 
-##### Cos
+#### Cos
 
 Returns the cos value of the given number.
 
